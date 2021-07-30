@@ -16,12 +16,22 @@ body {
 
 .titulo1{
     font-size: 2rem;
-    text-shadow: 2px 2px rbg(90, 3, 3);
+    text-shadow: 2px 2px rgb(90, 3, 3);
 
 }
 
 .subtitulo1{
     font-size: 28px;
     text-shadow: 2px 2px rgb(90, 3, 3);
+}
 
+.link-sobre{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #552222;
+    font-weight: bold;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
 }
