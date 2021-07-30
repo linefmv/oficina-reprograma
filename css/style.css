@@ -1,0 +1,12 @@
+body {
+    font-size: 1.88vh;
+  
+}
+.caixa-banner {
+    background-image: url(../img/banner-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    color: white;
+    display: flex;
+}
