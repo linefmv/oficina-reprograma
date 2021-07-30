@@ -9,4 +9,7 @@ body {
     height: 85vh;
     color: white;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
