@@ -1,42 +1,181 @@
 body {
     font-size: 1.88vh;
-  
+
 }
+
 .caixa-banner {
-    background-image: url(../img/banner-bg.png);
+    background-image: url(../img/watercolour-4117017.png);
     background-size: cover;
     background-position: center;
     height: 85vh;
-    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
 }
 
-.titulo1{
-    font-size: 2rem;
-    text-shadow: 2px 2px rgb(90, 3, 3);
-
+.titulo1 {
+    font-size: 9rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'MonteCarlo', cursive;
+    color: rgb(63, 94, 251);
 }
 
-.subtitulo1{
-    font-size: 28px;
-    text-shadow: 2px 2px rgb(90, 3, 3);
+.subtitulo1 {
+    font-size: 35px;
+    color: black;
 }
 
-.link-sobre, .link-cv{
+.link-sobre,
+.link-cv {
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
-    color: #552222;
+    color: #fcfcfc;
     font-weight: bold;
-    background-color: white;
+    background-color: #fc466b;
     padding: 8px 20px;
     border-radius: 20px;
 }
 
-.link-cv{
-    background-color: rgb(238, 81, 81);
+.link-cv {
+    margin-left: 150px;
+}
+
+.link-cv:hover,
+.link-sobre:hover {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.caixa-sobre {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.nome {
+    font-weight: bold;
+    color: rgb(63, 94, 251);
+}
+
+.lado1 {
+    width: 35%;
+}
+
+.margin-texto {
+    margin-bottom: 40px;
+}
+
+.lado2 {
+    width: 40%;
+
+}
+
+h3 {
+    font-size: 25px;
+    color: rgb(63, 94, 251);
+    margin-top: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li::before {
+    content: "•";
+    color: rgb(63, 94, 251);
+    padding-right: 20px;
+    font-size: 26px;
+}
+
+.titulo-sobre {
+    margin-left: 100px;
+    font-size: 35px;
+    color: rgb(63, 94, 251);
+}
+
+.lista {
+    text-decoration-color: rgb(63, 94, 251);
+}
+
+.caixa-links {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.links {
+    background-color: rgb(63, 94, 251);
+    width: 170px;
+    height: 180px;
+    text-align: center;
+    text-decoration: none;
     color: white;
+    border-radius: 20px;
+}
+
+.links:hover {
+    background-color: #fc466b;
+
+}
+
+.icone-github,
+.icone-linkedin,
+.icone-facebook,
+.icone-twitter {
+    height: 50px;
+    margin-top: 30px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+}
+.heart {
+   color: #fc466b;
+}
+
+@media(max-widht: 710px) {
+    .caixa-sobre {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .lado1 {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .lado2 {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .titulo-sobre {
+        margin: 20px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .links {
+        margin-top: 10px;
+        width: 250px;
+        height: 250px;
+        font-size: 20px;
+    }
+
+    .icone-github,
+    .icone-linkedin,
+    .icone-facebook,
+    .icone-twitter {
+        margin-top: 40px;
+    }
+
+
 }
